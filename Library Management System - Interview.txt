@@ -1,0 +1,51 @@
+﻿Library Management System                                                Wifi -> 
+Username: WeWork Password: P@ssw0rd
+
+
+Name->
+________________
+
+
+What to do                                                                                
+Develop the following Microservice application  .
+
+
+Time  : 1.5 hrs 
+Expectations 
+1. A fully working production ready application in microservices architecture
+2. Abstract DAO layer
+3. Graceful Exception Handling within and across microservices
+4. High Code Quality (proper logging, optimised code etc)
+5. All scenarios must be covered, proper validations. 
+6. Modular approach
+Development Assignment
+The system should have following capabilities - 
+
+
+1. Consider a user is already created in the system .
+      ( User Details )
+   1. UserId
+   2. UserName
+   3. createdDate
+   4. isMembershipActive
+2. Manages fines incurred by a user.
+3. Fine calculation is 10 INR / per day after scheduled return date.
+4. Keeps history of all the fines transactions
+5. Manages inventory of each book
+6. With every borrow & return inventory is updated.
+7. Manages Books details (info) 
+   1. BookId 
+   2. BookName
+   3. AuthorName
+   4. Publisher
+8. Operation
+   1. Add Book ( while adding book you also set the initial inventory)
+   2. Remove Book 
+
+
+9. Facilitates borrowing & returning of book by user.
+10. At a time user can only borrow 1 book 
+11. A user cannot borrow more than 2 books.
+12. A user can borrow a book for max 7 days.
+13. A user can borrow a book until her total fine is less than 100 INR 
+14. If fine is >= 100 INR , ask the user to clear her dues first before borrowing
